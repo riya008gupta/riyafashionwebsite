@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <label  class="logo">SHOPIFY</label>
+            <div id="check-btn" class="fas fa-bars"></div>
+            <div id="cart-icon" class="fas fa-shopping-bag" ></div>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li><a href="index.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="images/13.jpg" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Blue Printed T-shirt</div>
+                    <div class="cart-price">$25.07</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fas fa-trash-alt cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+        <i class="fa fa-window-close"  id="close-cart"></i>
+            
+    </div>
+
+    <section id="products">
+        <div class="row row-2">
+            <h1>All Products</h1>
+            <select >
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-1">
+               <a href="products-detail.html"> <img src="images/photos/t5.jpg" alt="" class="product-img"></a>
+                <h4 class="product-title">Woman Straight-Fit Trousers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$1150.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/KURTA.jpg" alt="" class="product-img">
+                <h4 class="product-title">Woman Ethnic Dresses</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$3390.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/woman top.jpeg" alt="" class="product-img">
+                <h4 class="product-title">Floral Printed Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$870.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/woman top1.avif" alt="" class="product-img">
+                <h4 class="product-title">Woman Trending Short Kurti</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$430.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="row ">
+                <div class="col-1 ">
+                    <img src="images/photos/jeans2.webp" alt="" class="product-img">
+                    <h4 class="product-title">Woman High-Rise Jeans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$499.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                <div class="col-1">
+                    <img src="images/photos/dynim.jpg" alt="" class="product-img">
+                    <h4 class="product-title">Women Denim Jacket </h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$550.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                <div class="col-1">
+                    <img src="images/photos/smruti-crop-top-skirt-co-ord-set-856515.webp" alt="" class="product-img">
+                    <h4 class="product-title">Floral Printed Crop top & Skirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$3550.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                <div class="col-1">
+                    <img src="images/photos/d3.avif" alt="" class="product-img">
+                    <h4 class="product-title">Ethnic Motifs Print Midi Dress</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$6650.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                </div>   
+                <div class="row ">
+                    <div class="col-1 ">
+                        <img src="images/photos/t1.jpg" alt="" class="product-img">
+                        <h4 class="product-title">Floral Printed Fit& Flare Dress</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$1600.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    <div class="col-1">
+                        <img src="images/photos/v6.jpg" alt="" class="product-img">
+                        <h4 class="product-title">Printed Basic Jumpsuit</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$550.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    <div class="col-1">
+                        <img src="images/photos/v3.jpg" alt="" class="product-img">
+                        <h4 class="product-title">Floral Printed Top</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$550.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    <div class="col-1">
+                        <img src="images/photos/v1.jpg" alt="" class="product-img">
+                        <h4 class="product-title">Floral Printed Top </h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$550.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    </div> 
+                </div>   
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+                </div>  
+</section>
+
+
+
+
+
+
+
+<footer>
+    <div class="footer">
+        <div class="footer-sec1">
+            <h1>SHOPIFY</h1>
+            <h3 class="heading">Contact</h3>
+            <div><span class="para">Address:</span>
+            <span>XYZ Road, Oop Rseb</span></div> <br>
+            <div><span class="para">Phone:</span>
+            <span>0123-6789903</span></div> <br>
+            <div><span class="para">Hours:</span>
+            <span>10:00-18:00. mon-sat</span></div> <br>
+            <h3 class="heading2">Follow Us</h3>
+            <div class="follow">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            </div>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">About</h3>
+            <span>About Us</span> <br><br>
+            <span>Delivery Information</span> <br><br>
+            <span>Privacy Policy</span> <br><br>
+            <span>Terms & Conditions</span> <br><br>
+            <span>Contact Us</span> <br><br>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">My Account</h3>
+            <span>Sign In</span> <br><br>
+            <span>View cart</span> <br><br>
+            <span>My Wishlist</span> <br><br>
+            <span>Track My Order</span> <br><br>
+            <span>Help</span> <br><br>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">Install App</h3>
+            <span>From App Store or Google Play</span> <br><br>
+            <div class="image-sec1">
+                <div><img src="images/google play.png" alt=""> </div>
+                <div><img src="images/appstore.png" alt=""> </div>
+                
+
+            </div>
+            <span>Secured Payment Gateways</span> <br><br>
+            <div class="image-sec2">
+               <img src="images/payment-gateway.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <p>Created By: Riya Gupta </p> 
+      <p>copyright&copy;riya008gupta@gmail.com</p> 
+    </div>
+</footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>

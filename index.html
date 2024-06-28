@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <label  class="logo">SHOPIFY</label>
+            <div id="check-btn" class="fas fa-bars"></div>
+            <div id="cart-icon" class="fas fa-shopping-bag" ></div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#account">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search">
+        <input type="text" name="search" id="search" placeholder="Enter Your Full Address" >
+        <button>Delivery</button>
+       <span id="btn2">or</span>
+        <button id="btn2">PickUp</button>
+    </div>
+    <section id="home">
+        <div class="home">
+            <div class="text">
+                <h2>The Best</h2>
+                <h2>Way  to sell Online</h2>
+                <p>Step into the World of Shopify: Where Timeless Elegance Meets Modern Style. Discover the Latest Trends, Curated Collections, and Effortless Chic for Every Occasion. Redefine Your Wardrobe Shopify Signature Sophistication."</p>
+                <button>Explore Now &#8594;</button>
+            </div>
+            <div class="image">
+                 <img src="images/photos/logo_hh-removebg-preview.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="images/13.jpg" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Blue Printed T-shirt</div>
+                    <div class="cart-price">$25.07</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fas fa-trash-alt cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+        <i class="fa fa-window-close"  id="close-cart"></i>
+            
+    </div>
+
+    <section id="products">
+        <h2><span>Featured Products</span></h2>
+        <div class="row">
+            <div class="col-1">
+                <img src="images/photos/brown3.jpg" alt="" class="product-img">
+                <h4 class="product-title">Woman Stylish Top</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$199.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/KURTA2.jpg" alt="" class="product-img">
+                <h4 class="product-title">Woman Floral Poly Silk Kurta </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$120.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/red1.jpg" alt="" class="product-img">
+                <h4 class="product-title">Burgundy Floral Printed Kurta </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$1399.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/pinky.webp" alt="" class="product-img">
+                <h4 class="product-title"> Woman Stylish Top</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$499.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            </div>   
+
+
+         <h2> <span >Latest Products</span></h2>
+        <div class="row row1">
+            <div class="col-1 col-2">
+                <img src="images/photos/112.jpg" alt="" class="product-img">
+                <h4 class="product-title">Gold Printed Necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$5550.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1 col-2">
+                <img src="images/photos/HEELS.jpg" alt="" class="product-img">
+                <h4 class="product-title">Embellished Block Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$750.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1 col-2">
+                <img src="images/photos/061.jpeg" alt="" class="product-img">
+                <h4 class="product-title">Woman Solid Shoulder Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$1,199</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            </div>   
+            <div class="row row1">
+                <div class="col-1 col-2">
+                    <img src="images/photos/WATCH.avif" alt="" class="product-img">
+                    <h4 class="product-title">Woman Gold Analogue Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$999.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                <div class="col-1 col-2">
+                    <img src="images/photos/LIPSTIK2.jpg" alt="" class="product-img">
+                    <h4 class="product-title">Cushion Matte Lipstick</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$450.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                <div class="col-1 col-2">
+                    <img src="images/photos/earinga.jpg" alt="" class="product-img">
+                    <h4 class="product-title">Sliver-Plated Earrings</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <span class="price">$550.00</span>
+                       <i class="fas fa-shopping-bag add-cart "></i>
+                </div>
+                </div>   
+
+                <!-- <div class="row row1">
+                    <div class="col-1 col-2">
+                        <img src="images/7.jpg" alt="" class="product-img">
+                        <h4 class="product-title">Blue Printed T-Shirts</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$50.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    <div class="col-1 col-2">
+                        <img src="images/photos/LIPSTIK2.jpg" alt="" class="product-img">
+                        <h4 class="product-title">womens shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$50.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    <div class="col-1 col-2">
+                        <img src="images/11.jpg" alt="" class="product-img">
+                        <h4 class="product-title">glasses</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <span class="price">$50.00</span>
+                           <i class="fas fa-shopping-bag add-cart "></i>
+                    </div>
+                    </div>    -->
+</section>
+
+<section id="watches">
+    <div class="watches">
+        <div class="watch_image">
+           <img src="images/photos/qqq-removebg-preview.png" alt="" srcset="">
+        </div>
+        <div class="watch_text">
+            <p>Exclusively available on 25% OFF</p>
+            <h2>Latest Analogue Watches</h2>
+        <p>Analog watches designed specifically for women often combine functionality with elegance. </p>
+        <p>Analog timepieces created for women frequently blend practicality with sophistication. </p>
+        <button>Buy Now &#8594;</button>
+        </div>
+    </div>
+
+   <div class="title"> <h2>Available Watches</h2></div>
+   <div class="row">
+    <div class="col-1 col">
+        <img src="images/photos/116.jpg" alt="" class="product-img">
+        <h4 class="product-title">Woman Rose Gold Watch</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div>
+        <span class="price">$3150.00</span>
+           <i class="fas fa-shopping-bag add-cart "></i>
+    </div>
+    <div class="col-1 col">
+        <img src="images/photos/117.jpg" alt="" class="product-img">
+        <h4 class="product-title">Woman Gold-Toned Watch</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div>
+        <span class="price">$6690.00</span>
+           <i class="fas fa-shopping-bag add-cart "></i>
+    </div>
+    <div class="col-1 col">
+        <img src="images/photos/115.jpg" alt="" class="product-img">
+        <h4 class="product-title">Woman Brass Dial Watch</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div>
+        <span class="price">$3170.00</span>
+           <i class="fas fa-shopping-bag add-cart "></i>
+    </div>
+    <div class="col-1 col">
+        <img src="images/photos/woman watch.webp" alt="" class="product-img">
+        <h4 class="product-title">Woman Analogue Watch</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o" ></i>
+        </div>
+        <span class="price">$3130.00</span>
+           <i class="fas fa-shopping-bag add-cart "></i>
+    </div>
+    </div>       
+</section>
+
+<section id="Features">
+    <div class="main">
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="images/photos/back.png" alt="" class="mobile">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="images/photos/icons2-removebg-preview.png" alt="" srcset="">
+                    <div>
+                        <h1>Eyelinear</h1>
+                        <p>Smudge proof,Long-lasting</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                   <img src="images/photos/icons3-removebg-preview.png" alt="">
+                   <div>
+                    <h1>Lipsticks</h1>
+                    <p>Long-lasting Matte Lipstick</p>
+                </div>
+            </div>
+                <div class="feature three">
+                    <img src="images/photos/icon4-removebg-preview.png" alt="">
+                    <div>
+                        <h1>Brushes</h1>
+                        <p>Professional Face & Eye Brush </p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="images/photos/828437.png" alt="" srcset="">
+                    <div>
+                        <h1>Blusher&Highlighter</h1>
+                        <p>For Long-lasting Illuminating Shine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control">
+            <img src="images/Arrow_top.png" alt="" id="upBtn">
+            <h3>Features</h3>
+            <img src="images/Arrow_top.png" alt="" id="downBtn">
+
+        </div>
+    </div>
+</section>
+
+<section id="laptops">
+    <h2>Available Footwears & Makeup</h2>
+        <div class="row">
+            <div class="col-1">
+                <img src="images/photos/229.jpeg" alt="" class="product-img">
+                <h4 class="product-title">Set of Natural Makeup Kit</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$850.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/223.jpeg" alt="" class="product-img">
+                <h4 class="product-title">Skin Care Products</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$990.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/224.jpg" alt="" class="product-img">
+                <h4 class="product-title">Special Festive Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$2170.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/226.jpg" alt="" class="product-img">
+                <h4 class="product-title">Woman Mauve Solid Toe Flats</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$430.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/227.jpg" alt="" class="product-img">
+                <h4 class="product-title">Embellished Open Toe Flats</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$584.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            <div class="col-1">
+                <img src="images/photos/225.jpg" alt="" class="product-img">
+                <h4 class="product-title">Beige Embellished Heel</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <span class="price">$584.00</span>
+                   <i class="fas fa-shopping-bag add-cart "></i>
+            </div>
+            </div>   
+</section>
+
+<section id="about">
+    <div class="about-section">
+           <h2>#Known Us</h2>
+           <p>Lorem ipsum dolor sit amet consectetur</p>
+       </div>
+       
+           <div class="about-txt">
+               <h1>Who we are?</h1>
+               <p>Notch Above Creations, is a Women's Clothing company that seeks to empower the artisans and local communities of India while creating the kind of clothing that stands the test of time. Our founder, Chethana Anumolu, was inspired by her experience working in the clothing sector to create more impactful and longer lasting products. We aim to fulfil the need for an alternative to the dominating fast fashion market in India by offering stylish and affordable clothing with a conscious focus on sustainability . Notch Above is based on a few core beliefs: high quality, minimal waste and sustainably made. We believe in conscious design and ethical production, so we work hard to inimize waste and maximize quality. We take ide in what we make, from sourcing quality brics and designing garments that stand up wear after wear.We're committed to sustainable fabrics, practices and processes. We believe in the power of a woman's individual style and personal expression, but also in the power of being able to make choices about how we look, what we wear and how we feel about ourselves.That's why our garments are made with sustainable materials and processes that help protect both people and the planet. Our designs are unique, inspired by classic styles with an eye on modern trends and the latest technology. And they're all made ethically with care and attention to detail by skilled artisans who take pride in their work.</p>
+               <button>More Details &#8594;</button>
+       </div>
+
+       <div class="about-sec1">
+           <div class="about-sec">
+               <div class="sec">
+                   <div class="sec1">
+                      <img src="images/Free Shiping.png" alt="">
+                   </div>
+                   <div class="sec2">
+                       <h2>Free Shiping</h2>
+                   </div>
+               </div>
+           </div>
+
+           <div class="about-sec">
+            <div class="sec">
+                <div class="sec1">
+                   <img src="images/OnlineOrder (2).png" alt="">
+                </div>
+                <div class="sec2">
+                    <h2>Online Order</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-sec">
+            <div class="sec">
+                <div class="sec1">
+                    <img src="images/Save Money.png" alt="">
+                </div>
+                <div class="sec2">
+                    <h2>Save Money</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-sec">
+            <div class="sec">
+                <div class="sec1">
+                    <img src="images/Promotion.png" alt="">
+                </div>
+                <div class="sec2">
+                    <h2>Promotions</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-sec">
+            <div class="sec">
+                <div class="sec1">
+                    <img src="images/Happy Sell.png" alt="">
+                </div>
+                <div class="sec2">
+                    <h2>Happy Sell</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-sec">
+            <div class="sec">
+                <div class="sec1">
+                    <img src="images/24 hour Support.png" alt="">
+                </div>
+                <div class="sec2">
+                    <h2>F24/7 Support</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <div class="contact-map">
+            <img src="images/contact-me-png-6.png" alt="">
+        </div>
+        <div class="contact-form">
+            <h1>Contact Form</h1>
+            <form action="">
+                <input type="text" placeholder="Name" class="contact-form-text">
+                <input type="text" placeholder="Email" class="contact-form-text">
+                <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+                <input type="submit" value="Contact Us" class="contact-form-submit">
+
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="account">
+    <div class="Container">
+        <div class="column">
+            <div class="coll2">
+                <img src="images/Young-Fashion-Girl-Holding-Shopping-Bag-PNG transparent.png" alt="" srcset="">
+            </div>
+            <div class="coll2">
+               <div class="form-container">
+                   <div class="form-btn">
+                       <span onclick="login()">Login</span>
+                       <span onclick="register()">Register</span>
+                       <hr id="indicator">
+                   </div>
+                   <form action="" id="LoginForm">
+                       <input type="text" placeholder="Username">
+                       <input type="password" placeholder="Password">
+                       <button type="submit" class="acount-btn">Login</button>
+                       <a href="">Forgot Password</a>
+                   </form>
+
+                   <form action="" id="RegForm">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="acount-btn">Register</button>
+                </form>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <div class="footer-sec1">
+            <h1>SHOPIFY</h1>
+            <h3 class="heading">Contact</h3>
+            <div><span class="para">Address:</span>
+            <span>XYZ Road, ABC oop Rseb</span></div> <br>
+            <div><span class="para">Phone:</span>
+            <span>0145-67868903</span></div> <br>
+            <div><span class="para">Hours:</span>
+            <span>10:00-18:00. mon-sat</span></div> <br>
+            <h3 class="heading2">Follow Us</h3>
+            <div class="follow">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            </div>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">About</h3>
+            <span>About Us</span> <br><br>
+            <span>Delivery Information</span> <br><br>
+            <span>Privacy Policy</span> <br><br>
+            <span>Terms & Conditions</span> <br><br>
+            <span>Contact Us</span> <br><br>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">My Account</h3>
+            <span>Sign In</span> <br><br>
+            <span>View cart</span> <br><br>
+            <span>My Wishlist</span> <br><br>
+            <span>Track My Order</span> <br><br>
+            <span>Help</span> <br><br>
+
+        </div>
+        <div class="footer-sec1">
+            <h3 class="heading">Install App</h3>
+            <span>From App Store or Google Play</span> <br><br>
+            <div class="image-sec1">
+                <div><img src="images/google play.png" alt=""> </div>
+                <div><img src="images/appstore.png" alt=""> </div>
+                
+
+            </div>
+            <span>Secured Payment Gateways</span> <br><br>
+            <div class="image-sec2">
+               <img src="images/payment-gateway.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <p>Created By: Riya Gupta</p> 
+      <p>copyright&copy;riya008gupta@gmail.com</p> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript/script.js"></script>
+
+    <!-- laptop feature javascript -->
+    <script>
+        var circle=document.getElementById("circle");
+        var upBtn=document.getElementById("upBtn");
+        var downBtn=document.getElementById("downBtn");
+
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+        upBtn.onclick=function(){
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+
+        }
+        downBtn.onclick=function(){
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
+
+    <!-- Accaount page js -->
+
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var indicator = document.getElementById("indicator");
+
+        function register(){
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            indicator.style.transform = "translateX(100px)";
+
+
+        }
+
+        
+        function login(){
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+            indicator.style.transform = "translateX(0px)";
+
+        }
+    </script>
+
+
+
+
+    
+    
+
+
+</body>
+</html>
